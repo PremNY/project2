@@ -142,7 +142,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>
     </div>  
     <div class="fm">
-      <form class="row g-3">
+      <form class="row g-3" onsubmit="validate()">
         <div class="col-md-6">
           <label for="inputFirstName" class="form-label">First Name</label>
           <input type="text" class="form-control" id="inputFirstName">
@@ -173,10 +173,10 @@
           <input type="text" class="form-control" id="inputZip">
         </div>
         <div class="col-12">
-          <button  type="submit" class="btn btn-primary viewDetail" onclick="discount()">See My Offer</button>
+          <button  type="submit" class="btn btn-primary viewDetail" onclick="discount()" >See My Offer</button>
         </div>
         <div id="seeresults">
-
+          <p id="seeresults"></p>
         </div>
       </form>
 
