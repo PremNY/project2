@@ -16,7 +16,7 @@ function validate() {
   } else if (city.value === '' || city.value.length === 0) {
     alert('Please enter your city');
   }else {
-    alert('Please fill all the fields'); ;
+     ;
   }
 
 }
